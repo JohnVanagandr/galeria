@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.card{
+  width: 320px;
+  background-color: #f2f2f2;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 8px;
+  border: solid 0.5px #cbc3c3;
+  display: inline-block;
+}
+.card img{
+  display: block;
+  max-height: 280px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 0px 4px #515151);
+}
+.card p{
+  font-size: 18px;
+}
